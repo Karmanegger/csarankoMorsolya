@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csarankó M. Orsolya Természetgyógyász</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Csarankó M. Orsolya Természetgyógyász</h1>
+    </header>
+
+    <section id="about">
+        <h2>Rólam</h2>
+        <p>
+            Üdvözlöm, Csarankó M. Orsolya vagyok, természetgyógyász. Hiszek abban, hogy a test és a lélek harmóniája elengedhetetlen a teljes egészséghez. Szolgáltatásaim célja, hogy segítsek megtalálni és megőrizni ezt az egyensúlyt, természetes módszerekkel és holisztikus szemlélettel. Legyen szó fájdalomcsillapításról, stresszoldásról vagy általános közérzetjavításról, egyéni igényekhez igazított kezeléseimmel támogatom Önt az egészséges életmód felé vezető úton.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Szolgáltatások</h2>
+        <ul>
+            <li>Baba masszázs</li>
+            <li>Kinezio tape</li>
+            <li>Köpölyözés</li>
+            <li>Lávakő kezelès</li>
+            <li>TENS kezelés</li>
+            <li>Szervzonás kézmasszázs</li>
+            <li>Ultrahang kezelés</li>
+            <li>Fülbevaló belövés</li>
+            <li>Fülakupunktúrás kezelés</li>
+            <li>Gyógymasszázs</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Első bejegyzés címe</h3>
+            <p>Ez az első blogbejegyzés bevezető szövege. Itt oszthatod meg a legfrissebb híreket, tippeket és tanácsokat az egészséges életmódhoz.</p>
+        </article>
+        <!-- További blogbejegyzések -->
+    </section>
+
+    <section id="contact">
+        <h2>Elérhetőség</h2>
+        <p>Telefon: <a href="tel:+36706227803">+36 70 622 7803</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100090876056062" target="_blank">Facebook profil</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Csarankó M. Orsolya Természetgyógyász. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 128, 128, 0.7);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #008080;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 128, 128, 0.7);
+    color: white;
+}
